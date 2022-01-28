@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="review_send"
+              label="review send"
+              file="review-send.html"
+              type="html"
+              module="WeGento_ReviewPro"
+              area="frontend"/>
+
+
+    <template id="customer_review_status"
+              label="review status change"
+              file="review-status-change.html"
+              type="html"
+              module="WeGento_ReviewPro"
+              area="frontend"/>
+</config>

@@ -1,0 +1,10 @@
+<!--@subject {{trans "new review"}} @-->
+<!--@vars {} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<p>Nickname: {{var review.nickname|escape}}</p>
+<p>Summary: {{var review.title|escape}}</p>
+<p>{{var review.detail|escape}}</p>
+
+{{template config_path="design/email/footer_template"}}

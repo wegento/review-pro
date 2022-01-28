@@ -1,0 +1,26 @@
+{
+    "name": "wegento/module-review-pro",
+    "description": "add additional featur to magento review",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "wegento/core":"dev-master"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WeGento\\ReviewPro\\": ""
+        }
+    }
+}
+
