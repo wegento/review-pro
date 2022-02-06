@@ -5,4 +5,5 @@
             <argument name="template" xsi:type="helper" helper="WeGento\ReviewPro\Helper\Data::getTemplate"/>
         </action>
     </referenceBlock>
+
 </layout>

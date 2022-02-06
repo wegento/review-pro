@@ -118,7 +118,7 @@ class ReviewSave implements ObserverInterface
                 $connection = $this->_resource;
                 $tableName = $connection->getTableName('review_detail');
                 $detail = [
-                    'admin_Replay' => $review->getAdminReplay(),
+                    'admin_replay' => $review->getAdminReplay(),
                 ];
                 $select = $connection->getConnection()->select()->from($tableName)->where('review_id = :review_id');
                 $detailId = $connection->getConnection()->fetchOne($select, [':review_id' => $review->getId()]);

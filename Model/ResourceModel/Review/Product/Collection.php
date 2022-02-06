@@ -98,7 +98,7 @@ class Collection extends \Magento\Review\Model\ResourceModel\Review\Product\Coll
         )->join(
             ['rdt' => $reviewDetailTable],
             'rdt.review_id = rt.review_id',
-            ['rdt.title', 'rdt.nickname', 'rdt.detail', 'rdt.customer_id', 'rdt.store_id', 'rdt.admin_Replay']
+            ['rdt.title', 'rdt.nickname', 'rdt.detail', 'rdt.customer_id', 'rdt.store_id', 'rdt.admin_replay']
         );
 
         return $this;
@@ -113,7 +113,7 @@ class Collection extends \Magento\Review\Model\ResourceModel\Review\Product\Coll
             case 'rdt.title':
             case 'rdt.nickname':
             case 'rdt.detail':
-            case 'rdt.admin_Replay':
+            case 'rdt.admin_replay':
                 $this->getSelect()->order($attribute . ' ' . $dir);
                 break;
             case 'stores':
@@ -138,7 +138,7 @@ class Collection extends \Magento\Review\Model\ResourceModel\Review\Product\Coll
             case 'rdt.title':
             case 'rdt.nickname':
             case 'rdt.detail':
-            case 'rdt.admin_Replay':
+            case 'rdt.admin_replay':
                 $conditionSql = $this->_getConditionSql($attribute, $condition);
                 $this->getSelect()->where($conditionSql);
                 break;

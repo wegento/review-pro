@@ -8,5 +8,12 @@
                 </argument>
             </action>
         </referenceBlock>
+        <referenceBlock class="Magento\Review\Block\Product\View\ListView" name="product.info.product_additional_data.wrapper" template="Magento_Review::product/view/list.phtml">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="helper"
+                          helper="WeGento\ReviewPro\Helper\Data::getTemplate"
+                />
+            </action>
+        </referenceBlock>
     </body>
 </page>

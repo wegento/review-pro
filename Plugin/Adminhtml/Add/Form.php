@@ -24,7 +24,7 @@ class Form
             'class' => 'fieldset-wide',
         ]);
 
-        $fieldset->addField('admin_Replay', 'textarea', [
+        $fieldset->addField('admin_replay', 'textarea', [
             'label' => __('Admin Replay'),
             'required' => false,
             'name' => 'admin_Replay',

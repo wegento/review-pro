@@ -6,8 +6,6 @@ $_items = $block->getReviewsCollection()->getItems();
 $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
 $helper = $this->helper('WeGento\ReviewPro\Helper\Data');
 ?>
-
-
 <?php if (count($_items)) : ?>
     <div class="block review-list" id="customer-reviews">
         <?php if (!$block->getHideTitle()) : ?>
