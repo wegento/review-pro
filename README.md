@@ -10,13 +10,14 @@ Based on this concept we start to create a module. we know it's not enough**
 # Installation
 you need base _**WeGento**_ module
 
-` composer require wegento/core:"dev-master"`
+`composer require wegento/core:"dev-master"`
  
 after that we can install this module :
 
 `composer require wegento/module-review-pro:"dev-master"`
 
-#Feature
+
+#Features
 
 _**1**- Admin can put a replay to each review_
 
