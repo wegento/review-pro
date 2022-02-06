@@ -14,9 +14,10 @@ you need base _**WeGento**_ module
  
 after that we can install this module :
 
-`composer require wegento/module-review-pro:"dev-master"
-`
+`composer require wegento/module-review-pro:"dev-master"`
+
 #Feature
+
 _**1**- Admin can put a replay to each review_
 
 _**2**- customer notification if review status change_
@@ -32,16 +33,19 @@ _**6**- good config to control all above feature_
 #Screen shut
 
 **admin config**
+
  ![](https://raw.githubusercontent.com/wegento/review-pro/master/files/config-items.png "admin config")
 
 **admin review form**
+
 ![](https://raw.githubusercontent.com/wegento/review-pro/master/files/replay-admin.png "result on product page")
 
 
-**result**(product page)
+**result** (product page)
+
  ![](https://raw.githubusercontent.com/wegento/review-pro/master/files/result.png "result on product page")
 
 
 #Contact
-[wegento.com](htts://wegento.com/moudles/review-pro) ||
-[info@wegento.com](mailto:info@wegento.com)
+
+[wegento.com](htts://wegento.com/moudles/review-pro) || [info@wegento.com](mailto:info@wegento.com)
