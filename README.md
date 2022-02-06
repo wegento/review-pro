@@ -50,4 +50,4 @@ _**6**- good config to control all above feature_
 
 # Contact
 
-[wegento.com](htts://wegento.com/moudles/review-pro) || [info@wegento.com](mailto:info@wegento.com)
+[wegento.com](https://wegento.com/moudles/review-pro) || [info@wegento.com](mailto:info@wegento.com)
