@@ -3,7 +3,8 @@
 
 # **About The Project** :
  
-**This module help you to have more communications with your customers. As you know the customer always will be happy if they could get this answer
+**This module help you to have more communications with your customers. As you know the customer always will be happy if they could get the answer
+
 Based on this concept we start to create a module. we know it's not enough**
  
 
@@ -17,7 +18,7 @@ after that we can install this module :
 `composer require wegento/module-review-pro:"dev-master"`
 
 
-#Features
+# Features
 
 _**1**- Admin can put a replay to each review_
 
@@ -31,7 +32,7 @@ _**5**- replay will show in customer panel_
 
 _**6**- good config to control all above feature_
 
-#Screen shut
+# Screen shut
 
 **admin config**
 
@@ -47,6 +48,6 @@ _**6**- good config to control all above feature_
  ![](https://raw.githubusercontent.com/wegento/review-pro/master/files/result.png "result on product page")
 
 
-#Contact
+# Contact
 
 [wegento.com](htts://wegento.com/moudles/review-pro) || [info@wegento.com](mailto:info@wegento.com)
